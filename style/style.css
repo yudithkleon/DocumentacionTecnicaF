@@ -1,0 +1,54 @@
+*{
+    background-color: rgb(231, 240, 237);
+    color: black;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: justify;
+}
+
+header{
+    font-size: 40px;
+    color: darkblue;
+    font-style: italic;
+    line-height: 3
+}
+
+body{
+    min-width: 290px;
+    color:black;
+    background-color: #d1f5e9;
+    font-family: cursive;
+    line-height: 1.5
+}
+
+#container{
+    /* display: flex; */
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto; 
+}
+
+#navbar{
+    display: grid;
+    color: rgb(48, 70, 26) !important;
+    background-color: darkorange;
+}
+
+.nav-link{
+    border: 2px solid dodgerblue;
+    margin: 10px;
+
+}
+@media only screen and (max-width: 300px) {
+    div.example {
+      font-size: 23px;
+      width: 100%;
+}
+
+ 
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
